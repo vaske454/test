@@ -1,0 +1,112 @@
+2021-06-14T09:55:24+00:00 CRITICAL Object of class WP_Term could not be converted to string in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php on line 20
+
+2021-06-14T10:49:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php:26
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(23): FWS\Theme\Render->templateView(Array, 'top-product-cat...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8  in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php on line 26
+
+2021-06-14T10:51:20+00:00 CRITICAL Object of class WP_Term could not be converted to string in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php on line 27
+
+2021-06-14T11:30:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php:28
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(23): FWS\Theme\Render->templateView(Array, 'top-product-cat...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8  in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php on line 28
+
+2021-06-14T11:31:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php:28
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(23): FWS\Theme\Render->templateView(Array, 'top-product-cat...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8  in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php on line 28
+
+2021-06-14T11:31:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php:28
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(23): FWS\Theme\Render->templateView(Array, 'top-product-cat...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8  in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/top-product-categories-test/top-product-categories-test.php on line 28
+
+2021-06-14T12:27:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php:24
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(26): FWS\Theme\Render->templateView(Array, 'latest-products...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8 /var/www/docr in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php on line 24
+
+2021-06-14T12:27:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php:24
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(26): FWS\Theme\Render->templateView(Array, 'latest-products...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8 /var/www/docr in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php on line 24
+
+2021-06-14T12:27:18+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php:24
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(26): FWS\Theme\Render->templateView(Array, 'latest-products...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8 /var/www/docr in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php on line 24
+
+2021-06-14T12:31:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php:24
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(26): FWS\Theme\Render->templateView(Array, 'latest-products...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8 /var/www/docro in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php on line 24
+
+2021-06-14T12:34:40+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php:25
+Stack trace:
+#0 /var/www/docroot/wp-includes/template.php(732): require()
+#1 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#2 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#4 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(26): FWS\Theme\Render->templateView(Array, 'latest-products...')
+#5 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#6 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#7 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#8 /var/www/docro in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/latest-products-test/latest-products-test.php on line 25
+
