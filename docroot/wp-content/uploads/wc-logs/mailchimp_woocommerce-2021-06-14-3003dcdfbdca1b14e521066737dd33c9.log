@@ -1,0 +1,344 @@
+2021-06-14T14:42:16+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => info@example.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:42:16+00:00 NOTICE errors.newsletter_settings :: Store cannot be synced :: <p>email_address: This email address looks fake or invalid. Please enter a real email address.</p>
+2021-06-14T14:42:17+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => info@example.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:42:18+00:00 NOTICE store.sync@woo.update :: Store cannot be synced
+2021-06-14T14:43:07+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => info@example.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:43:07+00:00 NOTICE errors.newsletter_settings :: Store cannot be synced :: <p>email_address: This email address looks fake or invalid. Please enter a real email address.</p>
+2021-06-14T14:43:08+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => info@example.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:43:08+00:00 NOTICE store.sync@woo.update :: Store cannot be synced
+2021-06-14T14:43:24+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => info@example.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:43:25+00:00 NOTICE store.sync@woo.update :: Store cannot be synced
+2021-06-14T14:43:27+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => info@example.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:43:27+00:00 NOTICE store.sync@woo.update :: Store cannot be synced
+2021-06-14T14:44:00+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => vasilije.tomovic@forwardslashny.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:44:03+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => vasilije.tomovic@forwardslashny.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:44:11+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => vasilije.tomovic@forwardslashny.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:44:15+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 60c7205fa859d
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => b436069e25
+            [name] => My WordPress Site
+            [domain] => http://test.docksal
+            [email_address] => vasilije.tomovic@forwardslashny.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => en_US
+            [timezone] => +00:00
+            [phone] => 0616597195
+            [address] => Array
+                (
+                    [address1] => Marka Kraljevica 34
+                    [city] => Novi Sad
+                    [province] => RS00
+                    [postal_code] => 21000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0616597195
+                    [company] => My WordPress Site
+                )
+
+        )
+
+)
+
+2021-06-14T14:44:17+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Mon, Jun 14, 2021 2:44 PM
+2021-06-14T14:44:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-06-14T14:44:52+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-06-14T14:44:52+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-06-14T14:44:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-06-14T14:44:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-06-14T14:44:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 75
+2021-06-14T14:44:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 106
+2021-06-14T14:44:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 115
+2021-06-14T14:44:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 116
+2021-06-14T14:44:54+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-06-14T14:44:55+00:00 NOTICE product_submit.success :: addStoreProduct :: #75
+2021-06-14T14:44:56+00:00 NOTICE product_submit.success :: addStoreProduct :: #106
+2021-06-14T14:44:56+00:00 NOTICE product_submit.success :: addStoreProduct :: #115
+2021-06-14T14:44:57+00:00 NOTICE product_submit.success :: addStoreProduct :: #116
+2021-06-14T14:45:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-06-14T14:45:41+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-06-14T14:45:50+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Jun 14, 2021 2:45 PM (total time: 00:01:33)
