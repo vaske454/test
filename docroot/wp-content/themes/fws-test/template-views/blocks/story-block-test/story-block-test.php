@@ -27,7 +27,7 @@ $link = $query_var['link'] ?? [];
 					<div class="entry-content story-block--entry-content">
 						<p><?php echo $textEditor; ?></p>
 					</div>
-					<a href="javascript:;" class="btn" target="_blank"><?php echo $link['title'] ?></a>
+					<a href="<?php echo $link['url'] ?>" class="btn" target="_blank"><?php echo $link['title'] ?></a>
 				</div>
 				<div class="col-lg-6 story-block__image">
 					<img src="<?php echo $image['url'] ?>" alt="Alt Text">
@@ -43,7 +43,7 @@ $link = $query_var['link'] ?? [];
 					<div class="entry-content story-block--entry-content">
 						<p><?php echo $textEditor; ?></p>
 					</div>
-					<a href="<?php echo $link['url'] ?>" class="btn" target="_blank">Read More</a>
+					<a href="<?php echo $link['url'] ?>" class="btn" target="_blank"><?php echo $link['title'] ?></a>
 				</div>
 
 			<?php } ?>
