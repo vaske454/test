@@ -63,26 +63,19 @@
                     "ui": 1
                 },
                 {
-                    "key": "field_60c76e3cbb195",
-                    "label": "Select second",
-                    "name": "select_second",
-                    "type": "post_object",
+                    "key": "field_60c85d1e8ba79",
+                    "label": "Button",
+                    "name": "button",
+                    "type": "link",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "",
+                        "width": "50",
                         "class": "",
                         "id": ""
                     },
-                    "post_type": [
-                        "teams"
-                    ],
-                    "taxonomy": "",
-                    "allow_null": 0,
-                    "multiple": 0,
-                    "return_format": "object",
-                    "ui": 1
+                    "return_format": "array"
                 }
             ]
         }
@@ -110,5 +103,5 @@
             "name": "Flexible Content"
         }
     ],
-    "modified": 1623682660
+    "modified": 1623743799
 }

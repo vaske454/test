@@ -29,6 +29,6 @@ $loader_image = fws()->resizer()->newImageSize($desktop_image['url'], 20, 7);
 		<source media="(min-width: 320px)" srcset="<?php echo $loader_image ?>" data-srcset="<?php echo $mobile_image['sizes']['medium']; ?>">
 	<?php endif; ?>
 
-	<img class="cover-img lazy" src="<?php echo $loader_image ?>" data-src="<?php echo $desktop_image['url']; ?>" alt="">
+	<img class="cover-img lazy" src="<?php echo $loader_image ?>" data-src="<?php echo $desktop_image['url']; ?>" alt="Image">
 </picture><!-- .background-image -->
 <?php endif; ?>

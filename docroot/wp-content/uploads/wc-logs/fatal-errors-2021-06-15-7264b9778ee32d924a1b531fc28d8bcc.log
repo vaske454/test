@@ -1,0 +1,85 @@
+2021-06-15T07:59:57+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to FWS\ACF\Render::linkField() must be of the type array, null given, called in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/team-test/team-test.php on line 40 and defined in /var/www/docroot/wp-content/themes/fws-test/fws/src/ACF/Render.php:29
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/team-test/team-test.php(40): FWS\ACF\Render->linkField(NULL, 'team-test__btn ...')
+#1 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#2 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#3 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#5 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(32): FWS\Theme\Render->templateView(Array, 'team-test')
+#6 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/ACF/Render.php on line 29
+
+2021-06-15T08:01:05+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to FWS\ACF\Render::linkField() must be of the type array, null given, called in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/team-test/team-test.php on line 40 and defined in /var/www/docroot/wp-content/themes/fws-test/fws/src/ACF/Render.php:29
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/team-test/team-test.php(40): FWS\ACF\Render->linkField(NULL, 'team-test__btn ...')
+#1 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#2 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#3 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#5 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(32): FWS\Theme\Render->templateView(Array, 'team-test')
+#6 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/ACF/Render.php on line 29
+
+2021-06-15T08:02:25+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to FWS\ACF\Render::linkField() must be of the type array, string given, called in /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/team-test/team-test.php on line 40 and defined in /var/www/docroot/wp-content/themes/fws-test/fws/src/ACF/Render.php:29
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/team-test/team-test.php(40): FWS\ACF\Render->linkField('', 'team-test__btn ...')
+#1 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#2 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#3 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#5 /var/www/docroot/wp-content/themes/fws-test/template-views/shared/flex-content.php(32): FWS\Theme\Render->templateView(Array, 'team-test')
+#6 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/ACF/Render.php on line 29
+
+2021-06-15T08:48:25+00:00 CRITICAL Uncaught TypeError: substr() expects parameter 1 to be string, null given in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php:59
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php(59): substr(NULL, -4)
+#1 /var/www/docroot/wp-content/themes/fws-test/template-views/parts/background-image/background-image.php(17): FWS\Theme\Media\Resizer->newImageSize(NULL, 20, 7)
+#2 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#3 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#4 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#6 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/newsletter-test/newsletter-test.php(21): FWS\Theme\Render->templateView(Array, 'background-imag...', 'parts')
+#7 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php on line 59
+
+2021-06-15T08:50:40+00:00 CRITICAL Uncaught TypeError: substr() expects parameter 1 to be string, null given in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php:59
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php(59): substr(NULL, -4)
+#1 /var/www/docroot/wp-content/themes/fws-test/template-views/parts/background-image/background-image.php(17): FWS\Theme\Media\Resizer->newImageSize(NULL, 20, 7)
+#2 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#3 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#4 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#6 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/newsletter-test/newsletter-test.php(22): FWS\Theme\Render->templateView(Array, 'background-imag...', 'parts')
+#7 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php on line 59
+
+2021-06-15T08:54:04+00:00 CRITICAL Uncaught TypeError: substr() expects parameter 1 to be string, null given in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php:59
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php(59): substr(NULL, -4)
+#1 /var/www/docroot/wp-content/themes/fws-test/template-views/parts/background-image/background-image.php(17): FWS\Theme\Media\Resizer->newImageSize(NULL, 20, 7)
+#2 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#3 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#4 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#6 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/newsletter-test/newsletter-test.php(22): FWS\Theme\Render->templateView(Array, 'background-imag...', 'parts')
+#7 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php on line 59
+
+2021-06-15T08:54:27+00:00 CRITICAL Uncaught TypeError: substr() expects parameter 1 to be string, null given in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php:59
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php(59): substr(NULL, -4)
+#1 /var/www/docroot/wp-content/themes/fws-test/template-views/parts/background-image/background-image.php(17): FWS\Theme\Media\Resizer->newImageSize(NULL, 20, 7)
+#2 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#3 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#4 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#6 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/newsletter-test/newsletter-test.php(22): FWS\Theme\Render->templateView(Array, 'background-imag...', 'parts')
+#7 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php on line 59
+
+2021-06-15T09:05:22+00:00 CRITICAL Uncaught TypeError: substr() expects parameter 1 to be string, null given in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php:59
+Stack trace:
+#0 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php(59): substr(NULL, -4)
+#1 /var/www/docroot/wp-content/themes/fws-test/template-views/parts/background-image/background-image.php(17): FWS\Theme\Media\Resizer->newImageSize(NULL, 20, 7)
+#2 /var/www/docroot/wp-includes/template.php(732): require('/var/www/docroo...')
+#3 /var/www/docroot/wp-includes/template.php(676): load_template('/var/www/docroo...', false, Array)
+#4 /var/www/docroot/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#5 /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Render.php(137): get_template_part('template-views/...')
+#6 /var/www/docroot/wp-content/themes/fws-test/template-views/blocks/newsletter-test/newsletter-test.php(21): FWS\Theme\Render->templateView(Array, 'background-imag...', 'parts')
+#7 /var/www in /var/www/docroot/wp-content/themes/fws-test/fws/src/Theme/Media/Resizer.php on line 59
+

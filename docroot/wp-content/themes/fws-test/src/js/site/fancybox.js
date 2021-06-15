@@ -11,7 +11,12 @@ const Fancybox = {
 
 	/** @description Initialize */
 	init: function() {
-		this.fancyboxPopup('.js-popup-trigger', '.js-popup', 'popup-custom-class');
+		// this.fancyboxPopup('.js-popup-trigger', '.js-popup', 'popup-custom-class');
+
+		$('.js-popup-trigger').each(function(e, el) {
+			const popup = $(el).parents('.team-list__box').find('.js-popup');
+			Fancybox.fancyboxPopup(el, popup, 'popup-custom-class');
+		});
 	},
 
 	/**

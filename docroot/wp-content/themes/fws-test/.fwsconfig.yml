@@ -58,6 +58,12 @@ acf-flexible-content:                               # DEFINE ACF FLEXIBLE CONTEN
             -
                 title: 'Story Block Test'
                 group_id: 'group_60c75c6a603d1'
+            -
+                title: 'Team Test'
+                group_id: 'group_60c76dc8f09ec'
+            -
+                title: 'Newsletter Test'
+                group_id: 'group_60c76ce825e72'
 styleguide:                                         # DEFINE STYLEGUIDE
     pages:                                          # set list of all pages defining their titles and urls
         -

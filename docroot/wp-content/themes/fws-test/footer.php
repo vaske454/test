@@ -16,7 +16,7 @@ $socialLink = get_field('social_links', 'option');
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="copyright">
 		<div class="container">
 			<div class="row site-footer__top">
 				<div class="site-footer__logo-holder site-footer__box col-md-4">
@@ -26,12 +26,12 @@ $socialLink = get_field('social_links', 'option');
 					</a>
 				</div>
 				<div class="site-footer__nav-holder site-footer__box col-md-4">
-					<h4 class="site-footer__box-title title-small">Navigation</h4>
+					<h4  style="color: white" class="site-footer__box-title title-small">Navigation</h4>
 					<ul class="site-footer__nav">
 						<?php foreach ($navigation as $nav) {
 							$link = $nav['navigation_link'];
 							?>
-							<li class="site-footer__nav-list"><a href="<?php echo $link['url'] ?>" class="site-footer__nav-link"><?php  echo $link['title'] ?></a></li>
+							<li class="site-footer__nav-list"><a  style="color: white" href="<?php echo $link['url'] ?>" class="site-footer__nav-link"><?php  echo $link['title'] ?></a></li>
 						<?php }?>
 					</ul>
 				</div>
@@ -41,7 +41,7 @@ $socialLink = get_field('social_links', 'option');
 						<?php $socialLink = get_field('social_links', 'option');
 						$soc = $socialLink['icons_theme'];
 						foreach ($soc as $social) { ?>
-						<li><a href="#" class="site-footer__social-link"><?php echo fws()->render()->inlineSVG( $social, '', true );?></a></li>
+						<li><a  style="color: white" href="#" class="site-footer__social-link"><?php echo fws()->render()->inlineSVG( $social, '', true );?></a></li>
 						<?php }?>
 					</ul>
 				</div>

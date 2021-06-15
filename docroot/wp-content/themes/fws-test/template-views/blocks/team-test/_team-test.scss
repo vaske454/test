@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------
+## team-test
+--------------------------------------------------------------*/
+.team-test {
+	padding: 60px 0;
+
+	@include mq($md) {
+		padding: 30px 0;
+	}
+}
+
+
+.team-list--title {
+	margin-bottom: 35px;
+}
+
+.team-list__box {
+	display: flex;
+
+	@include mq(1024px) {
+		margin-bottom: 35px;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	@include mq($sm) {
+		flex-direction: column;
+	}
+}
+
+.team-list__img-holder {
+	padding-right: 20px;
+	min-width: 40%;
+
+	@include mq($sm) {
+		margin-bottom: 20px;
+		padding-right: 0;
+	}
+}
+
+.team-list__img {
+	width: 100%;
+}
+
+.team-list__content-title {
+	font-size: 24px;
+	margin-bottom: 15px;
+
+	@include mq($lg) {
+		font-size: 21px;
+	}
+}
+
+.team-list__content-text {
+	font-size: 17px;
+	line-height: 1.25;
+	margin-bottom: 15px;
+
+	@include mq($lg) {
+		font-size: 16px;
+	}
+}

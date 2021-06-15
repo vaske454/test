@@ -23,7 +23,7 @@
         },
         {
             "key": "field_60c76d07810c6",
-            "label": "Background image",
+            "label": "Background Image",
             "name": "background_image",
             "type": "image",
             "instructions": "",
@@ -49,7 +49,7 @@
             "key": "field_60c76d2f810c7",
             "label": "Mailchimp plugin shortcode",
             "name": "mailchimp_plugin_shortcode",
-            "type": "text",
+            "type": "relationship",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -58,11 +58,19 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "post_type": [
+                "mc4wp-form"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "elements": "",
+            "min": "",
+            "max": "",
+            "return_format": "object"
         }
     ],
     "location": [
@@ -88,5 +96,5 @@
             "name": "Flexible Content"
         }
     ],
-    "modified": 1623682502
+    "modified": 1623758010
 }

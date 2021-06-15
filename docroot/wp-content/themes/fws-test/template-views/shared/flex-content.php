@@ -28,6 +28,12 @@ if ( $flexible_content ) {
 			case 'story_block_test':
 				fws()->render()->templateView( $fc, 'story-block-test' );
 				break;
+			case 'team_test':
+				fws()->render()->templateView( $fc, 'team-test' );
+				break;
+			case 'newsletter_test':
+				fws()->render()->templateView( $fc, 'newsletter-test' );
+				break;
 			default:
 				fws()->render()->templateView( $fc, 'basic-block' );
 		}

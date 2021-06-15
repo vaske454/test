@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+## newsletter-test
+--------------------------------------------------------------*/
+.newsletter-test {
+		padding: 200px 0;
+		background-size: cover;
+		background-position: 50% 50%;
+
+		@include mq(1024px) {
+			padding: 80px 0;
+		}
+}
+
+.newsletter__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	@include mq($md) {
+		flex-direction: column;
+	}
+}
+
+.newsletter__title {
+	font-size: 50px;
+	color: $white;
+	line-height: 1.1;
+	letter-spacing: 1px;
+	margin-right: 35px;
+
+	@include mq(1024px) {
+		font-size: 35px;
+	}
+
+	@include mq($md) {
+		margin-bottom: 20px;
+	}
+
+	@include mq($sm) {
+		font-size: 28px;
+	}
+}
+
+.newsletter_form {
+	position: relative;
+	flex-grow: 1;
+	max-width: 70%;
+
+	@include mq(1024px) {
+		font-size: 35px;
+	}
+
+	@include mq($md) {
+		max-width: initial;
+	}
+}
+
+.newsletter_form-input {
+	padding: 10px 60px 10px 20px;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	width: 100%;
+	display: block;
+}
+
+.newsletter_form-submit {
+	color: $white;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	@include center(y, absolute);
+	right: 3px;
+	height: 42px;
+	width: 42px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $green;
+	border: 2px solid $green;
+	transition: 0.2s ease-in-out;
+
+	@include hover {
+		color: $green;
+		background-color: $white;
+	}
+}
