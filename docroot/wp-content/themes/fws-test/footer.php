@@ -36,7 +36,7 @@ $socialLink = get_field('social_links', 'option');
 					</ul>
 				</div>
 				<div class="site-footer__social-holder site-footer__box col-md-4">
-					<h4 class="site-footer__box-title title-small">Social Links</h4>
+					<h4 class="site-footer__box-title title-small" style="color:white">Social Links</h4>
 					<ul class="site-footer__social">
 						<?php $socialLink = get_field('social_links', 'option');
 						$soc = $socialLink['icons_theme'];
