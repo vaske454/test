@@ -35,10 +35,10 @@ $link = $query_var['link'] ?? [];
 		</div>
 		<div class="row story-block--row">
 			<?php } else { ?>
-				<div class="col-lg-4 story-block__image">
+				<div class="col-lg-3 story-block__image">
 					<img  src="<?php echo $image['url'] ?>" alt="Alt Text">
 				</div>
-				<div class="col-lg-8 story-block__content">
+				<div class="col-lg-6 story-block__content">
 					<h2 class="story-block__content-title section-title"><?php echo $title; ?></h2>
 					<div class="entry-content story-block--entry-content">
 						<p><?php echo $textEditor; ?></p>
