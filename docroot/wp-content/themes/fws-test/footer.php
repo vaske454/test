@@ -21,7 +21,6 @@ $socialLink = get_field('social_links', 'option');
 			<div class="row site-footer__top">
 				<div class="site-footer__logo-holder site-footer__box col-md-4">
 					<a class="site-footer__logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<?php $logo = get_field( 'footer_logo', 'option' ); ?>
 						<img class="site-footer__logo-img" src="<?php echo $logo['url']; ?>" alt="Starter Logo" title="Starter">
 					</a>
 				</div>
@@ -38,7 +37,7 @@ $socialLink = get_field('social_links', 'option');
 				<div class="site-footer__social-holder site-footer__box col-md-4">
 					<h4 class="site-footer__box-title title-small" style="color:white">Social Links</h4>
 					<ul class="site-footer__social">
-						<?php $socialLink = get_field('social_links', 'option');
+						<?php
 						$soc = $socialLink['icons_theme'];
 						foreach ($soc as $social) { ?>
 						<li><a  style="color: white" href="#" class="site-footer__social-link"><?php echo fws()->render()->inlineSVG( $social, '', true );?></a></li>
