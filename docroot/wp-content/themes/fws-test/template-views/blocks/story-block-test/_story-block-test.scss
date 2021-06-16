@@ -2,5 +2,36 @@
 ## story-block-test
 --------------------------------------------------------------*/
 .story-block-test {
+	padding: 100px 0;
 
+	@include mq($lg) {
+		padding: 40px 0;
+	}
+img{
+	width: 260px;
+}
+}
+
+.story-block--row {
+	align-items: center;
+
+	.story-block--alt & {
+		@include mq($lg + 1, min) {
+			flex-direction: row-reverse;
+		}
+	}
+}
+
+.story-block__content-title {
+	margin-bottom: 35px;
+
+	@include mq($lg) {
+		margin-bottom: 25px;
+	}
+}
+
+.story-block__content {
+	@include mq($lg) {
+		margin-bottom: 30px;
+	}
 }
