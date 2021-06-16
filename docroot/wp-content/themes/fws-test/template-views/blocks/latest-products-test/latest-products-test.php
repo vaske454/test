@@ -4,7 +4,7 @@
  *
  * @link https://internal.forwardslashny.com/starter-theme/#blocks-and-parts
  *
- * @package fws_starter_s
+ * @package fws_test
  */
 
 // get template view values
@@ -25,12 +25,11 @@ $query = new WP_Query( array(
 
 		<div class="latest-products-test__items js-products-slider row">
 
-
 			<?php $posts = $query->posts;
 			foreach ($posts as $post) {
 						$image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID));
 						?>
-				<div class="latest-products-test__item">
+			<div class="latest-products-test__item">
 				<div class="latest-products-test__item-body">
 						<a href="javascript:;" class="latest-products-test__item-thumb-holder">
 							<img src="<?php echo $image[0]; ?>" alt="" class="latest-products-test__item-thumb">
@@ -45,8 +44,6 @@ $query = new WP_Query( array(
 				<?php
 			};
 			?>
-
-
 
 		</div>
 	</div>

@@ -12,10 +12,9 @@
 	@include mq($md) {
 		padding: 35px 0;
 	}
-
 }
 
-.latest-product-test__item {
+.latest-product-stest__item {
 	padding: 15px;
 }
 
@@ -33,7 +32,7 @@
 	border-top: 0;
 }
 
-.latest-products-test__item-thumb {
+.latest-products-test__item-thumb-holder {
 	display: block;
 	overflow: hidden;
 
