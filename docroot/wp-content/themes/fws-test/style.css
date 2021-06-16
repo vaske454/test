@@ -10090,7 +10090,7 @@ a:hover, a:focus, a:active {
 }
 
 img {
-  width: 240px;
+  width: 100%;
 }
 
 .product-slider__item {
