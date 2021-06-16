@@ -10089,10 +10089,6 @@ a:hover, a:focus, a:active {
   }
 }
 
-img {
-  width: 100%;
-}
-
 .product-slider__item {
   padding: 15px;
 }
@@ -10149,11 +10145,6 @@ img {
   font-size: 16px;
   line-height: 1.2;
   margin-bottom: 12px;
-}
-
-.btn {
-  position: relative;
-  right: 5%;
 }
 
 /*--------------------------------------------------------------
