@@ -26,15 +26,15 @@ $taxonomy = $query_var['taxonomy'] ?? [];
 			<?php
 			foreach ($taxonomy as $tax) { ?>
 				<div class="col-md-3 col-6">
-					<a href="javascript:;"><h3 class="product-cats__item-title"><?php echo $tax->name; ?></h3></a>
-					<?php
-					$termId = $tax->term_id;
-					$thumbnail_id = get_term_meta ( $termId, 'thumbnail_id', true );
-					$image = wp_get_attachment_url( $thumbnail_id );
-					?>
-					<a href="javascript:;" class="product-slider__item-thumb-holder">
+					<a class="product-cats__item" href="javascript:;">
+						<?php
+						$termId = $tax->term_id;
+						$thumbnail_id = get_term_meta ( $termId, 'thumbnail_id', true );
+						$image = wp_get_attachment_url( $thumbnail_id );
+						?>
 						<img src="<?php echo $image;?>" alt="sorry" class="product-cats__item-thumb">
-					</a><br><br>
+						<h3 class="product-cats__item-title"><?php echo $tax->name; ?></h3>
+					</a>
 				</div>
 				<?php
 			}

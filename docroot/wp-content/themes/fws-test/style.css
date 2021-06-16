@@ -9968,12 +9968,23 @@ a:hover, a:focus, a:active {
 /*--------------------------------------------------------------
 ## slider-test
 --------------------------------------------------------------*/
+.slider-test {
+  padding: 70px 0;
+}
+
 .slider-test .slick-slide {
   outline: 0;
 }
 
 .slider-test .slick-slide img {
+  width: 100%;
   display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .slider-test {
+    padding: 35px 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -10072,13 +10083,10 @@ a:hover, a:focus, a:active {
 --------------------------------------------------------------*/
 .latest-products-test {
   padding: 60px 0;
-}
-
-.latest-products-test .slick-slide {
   outline: 0;
 }
 
-.latest-products-test .slick-slide img {
+.latest-products-test img {
   width: 100%;
   display: block;
 }
@@ -10089,59 +10097,59 @@ a:hover, a:focus, a:active {
   }
 }
 
-.product-slider__item {
+.latest-product-test__item {
   padding: 15px;
 }
 
-.product-slider__title {
+.latest-products-test__title {
   margin-bottom: 30px;
 }
 
 @media screen and (max-width: 991px) {
-  .product-slider__title {
+  .latest-products-test__title {
     margin-bottom: 20px;
   }
 }
 
-.product-slider__item-content {
+.latest-products-test__item-content {
   padding: 20px 15px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-top: 0;
 }
 
-.product-slider__item-thumb-holder {
+.latest-products-test__item-thumb {
   display: block;
   overflow: hidden;
 }
 
 @media only screen and (min-width: 1250px) {
-  .product-slider__item-thumb-holder:hover .product-slider__item-thumb {
+  .latest-products-test__item-thumb:hover .latest-product-test__item-thumb {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
   }
 }
 
-.product-slider__item-thumb {
+.latest-products-test__item-thumb {
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 
-.product-slider__item-title {
+.latest-products-test__item-title {
   margin-bottom: 10px;
 }
 
-.product-slider__item-title a {
+.latest-products-test__item-title a {
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 
 @media only screen and (min-width: 1250px) {
-  .product-slider__item-title:hover a {
+  .latest-products-test__item-title:hover a {
     color: #4fc08d;
   }
 }
 
-.product-slider__item-desc {
+.latest-products-test__item-desc {
   font-size: 16px;
   line-height: 1.2;
   margin-bottom: 12px;
@@ -10158,10 +10166,6 @@ a:hover, a:focus, a:active {
   .story-block-test {
     padding: 40px 0;
   }
-}
-
-.story-block-test img {
-  width: 260px;
 }
 
 .story-block--row {

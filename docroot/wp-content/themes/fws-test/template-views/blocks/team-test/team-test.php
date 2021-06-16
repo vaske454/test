@@ -24,7 +24,7 @@ $selectFields = $query_var['select_fields'] ?? [];
 					$image = wp_get_attachment_image_src(get_post_thumbnail_id($select['select_first']->ID)); ?>
 			<div class="col-lg-6 team-list__box">
 				<div class="team-list__img-holder">
-					<img src="<?php echo $image[0]?>" alt="Image">
+					<img class="team-list__img" src="<?php echo $image[0]?>" alt="">
 				</div>
 				<div class="team-list__content">
 					<h3 class="team-list__content-title"><?php echo $select['select_first']->post_title ?></h3>
@@ -33,17 +33,21 @@ $selectFields = $query_var['select_fields'] ?? [];
 						echo $select['select_first']->post_content; ?>
 						</p>
 					</div>
-					<a href="javascript:;" class="btn team-list__content-btn js-popup-trigger">Read More</a>
+					<a href="javascript:;" class="btn team-list__content-btn js-open-popup">Read More</a>
 
 				</div>
-				<div class="js-popup" style="display: none;">
+				<div class="popup-holder js-popup-holder" style="display: none">
+					<div class="popup-overlay js-popup-overlay"></div>
+					<div class="popup-content">
+						<a href="javascript:;" class="popup-close js-popup-close"></a>
 					<h3 class="popup-title"><?php echo $select['select_first']->post_title ?></h3>
 					<div class="popup-text">
 						<p><?php
 							echo $select['select_first']->post_content; ?></p>
 					</div>
+					</div>
 				</div>
-			</div>
+		    </div>
 			<?php } ?>
 		</div>
 

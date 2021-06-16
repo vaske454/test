@@ -13,8 +13,8 @@ const Fancybox = {
 	init: function() {
 		// this.fancyboxPopup('.js-popup-trigger', '.js-popup', 'popup-custom-class');
 
-		$('.js-popup-trigger').each(function(e, el) {
-			const popup = $(el).parents('.team-list__box').find('.js-popup');
+		$('.js-open-popup').each(function(e, el) {
+			const popup = $(el).parents('.team-list__box').find('.popup-content');
 			Fancybox.fancyboxPopup(el, popup, 'popup-custom-class');
 		});
 	},

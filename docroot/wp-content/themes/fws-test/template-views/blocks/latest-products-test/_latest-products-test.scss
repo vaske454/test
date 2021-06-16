@@ -3,25 +3,23 @@
 --------------------------------------------------------------*/
 .latest-products-test {
 	padding: 60px 0;
-
-	.slick-slide {
-		outline: 0;
-
-		img {
-			width: 100%;
-			display: block;
-		}
+	outline: 0;
+	img {
+		width: 100%;
+		display: block;
 	}
 
 	@include mq($md) {
 		padding: 35px 0;
 	}
+
 }
-.product-slider__item {
+
+.latest-product-test__item {
 	padding: 15px;
 }
 
-.product-slider__title {
+.latest-products-test__title {
 	margin-bottom: 30px;
 
 	@include mq($lg) {
@@ -29,28 +27,28 @@
 	}
 }
 
-.product-slider__item-content {
+.latest-products-test__item-content {
 	padding: 20px 15px;
 	border: 1px solid rgba($black, 0.2);
 	border-top: 0;
 }
 
-.product-slider__item-thumb-holder {
+.latest-products-test__item-thumb {
 	display: block;
 	overflow: hidden;
 
 	@include hover {
-		.product-slider__item-thumb {
+		.latest-product-test__item-thumb {
 			transform: scale(1.05);
 		}
 	}
 }
 
-.product-slider__item-thumb {
+.latest-products-test__item-thumb {
 	transition: 0.2s ease-in-out;
 }
 
-.product-slider__item-title {
+.latest-products-test__item-title {
 	margin-bottom: 10px;
 
 	a {
@@ -65,7 +63,7 @@
 }
 
 
-.product-slider__item-desc {
+.latest-products-test__item-desc {
 	font-size: 16px;
 	line-height: 1.2;
 	margin-bottom: 12px;

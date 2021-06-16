@@ -15,14 +15,15 @@ $slides = $query_var['slides'] ?? [];
 ?>
 
 <?php if ( $slides ) : ?>
-	<div class="slider js-slider" id="section_two">
+	<div class="slider-test js-slider">
+
 		<?php
 		foreach ( $slides as $item ) {
-			// resize image
-			$src = fws()->resizer()->newImageSize($item['url'], 460, 460);
-			// render image with lazy loading
-			echo fws()->images()->mediaItemLazy( $src, 'square', 'slider__item', '', [20, 20] );
-		}
+			?>
+			<figure>
+				<img src=" <?php echo $item['url'] ?> " alt="">
+			</figure>
+		<?php }
 		?>
-	</div><!-- .slider -->
+	</div><!-- .slider-test -->
 <?php endif; ?>
